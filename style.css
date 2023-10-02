@@ -131,7 +131,7 @@ html{
     transition: all 0.3s ease;
 }
 .scroll-up-btn.show{
-    opacity: 1;
+    opacity: 30;
     pointer-events: auto;
     bottom: 30px;
 }
@@ -437,52 +437,6 @@ section .title::after{
       transform:  translateX(100%) scaleX(0.5);
     }
   }
-  /* @keyframes colorAnimation {
-    0% {
-      background-image: linear-gradient(
-        to right,
-        #19467e,
-        #d1cbd4,
-        #64af6e,
-        #000501
-      );
-    }
-    20% {
-      background-image: linear-gradient(
-        to right,
-        #64af6e,
-        #000501,
-        #19467e,
-        #d1cbd4
-      );
-    }
-    40% {
-      background-image: linear-gradient(
-        to right,
-        #d1cbd4,
-        #64af6e,
-        #000501,
-        #19467e,
-      );
-    }
-    60% {
-      background-image: linear-gradient(
-        to right,
-        #000501,
-        #19467e,
-        #d1cbd4,
-        #64af6e
-      );
-    }
-    100% {
-      background-image: linear-gradient(
-        to right,
-        #64af6e
-      );
-    }
-  } */
-
-/*contato*/
 .contact{
     background: #111;
     color: #fff;
